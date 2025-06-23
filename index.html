@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Wisdom</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="stickers">
+            <div class="sticker brain">🧠</div>
+            <div class="sticker lightbulb">💡</div>
+            <div class="sticker star">⭐</div>
+            <div class="sticker book">📚</div>
+            <div class="sticker gem">💎</div>
+            <div class="sticker owl">🦉</div>
+        </div>
+        
+        <header>
+            <h1>Daily Wisdom</h1>
+        </header>
+        
+        <main>
+            <div class="quote-container">
+                <div class="quote-box">
+                    <div class="loading" id="loading">Loading wisdom...</div>
+                    <blockquote id="quote-text" class="quote-text"></blockquote>
+                    <cite id="quote-author" class="quote-author"></cite>
+                    <button id="share-btn" class="corner-btn share-btn">Share</button>
+                </div>
+                <button id="new-quote-btn" class="new-quote-btn">New Inspiration</button>
+            </div>
+        </main>
+    </div>
+
+    
+
+    <!-- Footer with date/time and creator credit -->
+    <div class="footer">
+        <div id="datetime" class="datetime"></div>
+        <div class="creator-credit">created by gi.dail</div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
